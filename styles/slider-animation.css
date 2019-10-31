@@ -1,0 +1,62 @@
+.new-slide {
+	z-index: 1;
+}
+
+
+/* =============================================================================
+																			Move To / Move From
+============================================================================= */
+
+
+.moveToLeft {
+	-webkit-animation: moveToLeft 0.8s ease both;
+	animation:         moveToLeft 0.8s ease both;
+}
+
+.moveFromLeft {
+	-webkit-animation: moveFromLeft 0.8s ease both;
+	animation:         moveFromLeft 0.8s ease both;
+}
+
+.moveToRight {
+	-webkit-animation: moveToRight 0.8s ease both;
+	animation:         moveToRight 0.8s ease both;
+}
+
+.moveFromRight {
+	-webkit-animation: moveFromRight 0.8s ease both;
+	animation:         moveFromRight 0.8s ease both;
+}
+
+
+@-webkit-keyframes moveToLeft {
+	from { }
+	to { -webkit-transform: translateX(-100%); }
+}
+@keyframes moveToLeft {
+	from { }
+	to { -webkit-transform: translateX(-100%); transform: translateX(-100%); }
+}
+
+@-webkit-keyframes moveFromLeft {
+	from { -webkit-transform: translateX(-100%); }
+}
+@keyframes moveFromLeft {
+	from { -webkit-transform: translateX(-100%); transform: translateX(-100%); }
+}
+
+@-webkit-keyframes moveToRight {
+	from { }
+	to { -webkit-transform: translateX(100%); }
+}
+@keyframes moveToRight {
+	from { }
+	to { -webkit-transform: translateX(100%); transform: translateX(100%); }
+}
+
+@-webkit-keyframes moveFromRight {
+	from { -webkit-transform: translateX(100%); }
+}
+@keyframes moveFromRight {
+	from { -webkit-transform: translateX(100%); transform: translateX(100%); }
+}

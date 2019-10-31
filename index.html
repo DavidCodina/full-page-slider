@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Object-Oriented Slider II</title>
+  <link rel="stylesheet" href="styles/slider-animation.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+
+<body>
+  <!-- =========================================================================
+                                    <header>
+  ========================================================================== -->
+
+
+  <header>
+    <h1 class="fancy-h1">Full Page Slider</h1>
+  </header>
+
+
+  <!-- =========================================================================
+                                    <main>
+  ========================================================================== -->
+
+
+
+  <main>
+    <div id="slider1" class="slider">
+      <div class="slide-container">
+				<div class="slide" data-slide="1">
+
+          <div class="indicator-container">
+            <button class="indicator" data-slide-indicator="1"></button>
+            <button class="indicator" data-slide-indicator="2"></button>
+            <button class="indicator" data-slide-indicator="3"></button>
+          </div>
+
+          <article class="article">
+            <h2 class="fancy-h2">Slide 1:</h2>
+
+            <p><strong>Note:</strong> this is a variation on a more standard slider I built (found
+            <a href="https://github.com/DavidCodina/object-oriented-slider-II" target="_blank">here</a>).
+            Relative to the original, several styles had to be changed, as well as modifications to the
+            <code>updateIndicator</code> function.</p>
+
+            <p>Obviously using circle buttons isn't particularly user-friendly, but it's a quick-fix in the
+            HTML/CSS to convert them to more informative buttons...</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies commodo tempus. Praesent semper varius est eget pellentesque. Sed eget faucibus massa. Curabitur ornare neque metus, eget euismod tellus iaculis ut. Etiam at nunc cursus, pharetra enim id, pulvinar odio. Praesent pharetra est nisl, sed mattis nisi vehicula et. Integer cursus viverra neque, id fringilla dui condimentum eu. Vestibulum vel magna ut urna aliquet scelerisque. Curabitur tincidunt lectus et magna mollis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ac turpis et diam consequat bibendum. Fusce rhoncus lorem id purus porta consectetur nec eu lectus. Nam ac arcu vel tellus ultricies molestie eu in est. Integer eget dolor et massa porta accumsan. Vivamus laoreet eros eu nunc sollicitudin gravida.
+            </p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies commodo tempus. Praesent semper varius est eget pellentesque. Sed eget faucibus massa. Curabitur ornare neque metus, eget euismod tellus iaculis ut. Etiam at nunc cursus, pharetra enim id, pulvinar odio. Praesent pharetra est nisl, sed mattis nisi vehicula et. Integer cursus viverra neque, id fringilla dui condimentum eu. Vestibulum vel magna ut urna aliquet scelerisque. Curabitur tincidunt lectus et magna mollis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ac turpis et diam consequat bibendum. Fusce rhoncus lorem id purus porta consectetur nec eu lectus. Nam ac arcu vel tellus ultricies molestie eu in est. Integer eget dolor et massa porta accumsan. Vivamus laoreet eros eu nunc sollicitudin gravida.
+            </p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies commodo tempus. Praesent semper varius est eget pellentesque. Sed eget faucibus massa. Curabitur ornare neque metus, eget euismod tellus iaculis ut. Etiam at nunc cursus, pharetra enim id, pulvinar odio. Praesent pharetra est nisl, sed mattis nisi vehicula et. Integer cursus viverra neque, id fringilla dui condimentum eu. Vestibulum vel magna ut urna aliquet scelerisque. Curabitur tincidunt lectus et magna mollis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ac turpis et diam consequat bibendum. Fusce rhoncus lorem id purus porta consectetur nec eu lectus. Nam ac arcu vel tellus ultricies molestie eu in est. Integer eget dolor et massa porta accumsan. Vivamus laoreet eros eu nunc sollicitudin gravida.
+            </p>
+          </article>
+        </div>
+
+        <div class="slide" data-slide="2">
+
+          <div class="indicator-container">
+            <button class="indicator" data-slide-indicator="1"></button>
+            <button class="indicator" data-slide-indicator="2"></button>
+            <button class="indicator" data-slide-indicator="3"></button>
+          </div>
+
+          <article class="article">
+            <h2 class="fancy-h2">Slide 2:</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies commodo tempus. Praesent semper varius est eget pellentesque. Sed eget faucibus massa. Curabitur ornare neque metus, eget euismod tellus iaculis ut. Etiam at nunc cursus, pharetra enim id, pulvinar odio. Praesent pharetra est nisl, sed mattis nisi vehicula et. Integer cursus viverra neque, id fringilla dui condimentum eu. Vestibulum vel magna ut urna aliquet scelerisque. Curabitur tincidunt lectus et magna mollis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ac turpis et diam consequat bibendum. Fusce rhoncus lorem id purus porta consectetur nec eu lectus. Nam ac arcu vel tellus ultricies molestie eu in est. Integer eget dolor et massa porta accumsan. Vivamus laoreet eros eu nunc sollicitudin gravida.
+            </p>
+          </article>
+        </div>
+
+        <div class="slide" data-slide="3">
+
+          <div class="indicator-container">
+            <button class="indicator" data-slide-indicator="1"></button>
+            <button class="indicator" data-slide-indicator="2"></button>
+            <button class="indicator" data-slide-indicator="3"></button>
+          </div>
+
+          <article class="article">
+            <h2 class="fancy-h2">Slide 3:</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies commodo tempus. Praesent semper varius est eget pellentesque. Sed eget faucibus massa. Curabitur ornare neque metus, eget euismod tellus iaculis ut. Etiam at nunc cursus, pharetra enim id, pulvinar odio. Praesent pharetra est nisl, sed mattis nisi vehicula et. Integer cursus viverra neque, id fringilla dui condimentum eu. Vestibulum vel magna ut urna aliquet scelerisque. Curabitur tincidunt lectus et magna mollis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ac turpis et diam consequat bibendum. Fusce rhoncus lorem id purus porta consectetur nec eu lectus. Nam ac arcu vel tellus ultricies molestie eu in est. Integer eget dolor et massa porta accumsan. Vivamus laoreet eros eu nunc sollicitudin gravida.
+            </p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies commodo tempus. Praesent semper varius est eget pellentesque. Sed eget faucibus massa. Curabitur ornare neque metus, eget euismod tellus iaculis ut. Etiam at nunc cursus, pharetra enim id, pulvinar odio. Praesent pharetra est nisl, sed mattis nisi vehicula et. Integer cursus viverra neque, id fringilla dui condimentum eu. Vestibulum vel magna ut urna aliquet scelerisque. Curabitur tincidunt lectus et magna mollis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ac turpis et diam consequat bibendum. Fusce rhoncus lorem id purus porta consectetur nec eu lectus. Nam ac arcu vel tellus ultricies molestie eu in est. Integer eget dolor et massa porta accumsan. Vivamus laoreet eros eu nunc sollicitudin gravida.
+            </p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies commodo tempus. Praesent semper varius est eget pellentesque. Sed eget faucibus massa. Curabitur ornare neque metus, eget euismod tellus iaculis ut. Etiam at nunc cursus, pharetra enim id, pulvinar odio. Praesent pharetra est nisl, sed mattis nisi vehicula et. Integer cursus viverra neque, id fringilla dui condimentum eu. Vestibulum vel magna ut urna aliquet scelerisque. Curabitur tincidunt lectus et magna mollis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ac turpis et diam consequat bibendum. Fusce rhoncus lorem id purus porta consectetur nec eu lectus. Nam ac arcu vel tellus ultricies molestie eu in est. Integer eget dolor et massa porta accumsan. Vivamus laoreet eros eu nunc sollicitudin gravida.
+            </p>
+          </article>
+        </div>
+      </div>
+    </div><!-- End of <div id="slider1" class="slider"> -->
+
+
+  </main>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
